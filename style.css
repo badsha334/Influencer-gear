@@ -19,8 +19,11 @@ main{
    
 }
 /* style  */
+
 .flexible-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
 }
 .half-width{
     width: 50%;
@@ -89,4 +92,36 @@ margin-bottom: 80px;
             text-align: center;
             color: white;
             padding: 20px;
+        }
+        /* Media queri  */
+        @media only screen and (max-width:688px) {
+            .collections, .flexible-container{
+                
+                grid-template-columns: repeat(1, 1fr);
+                
+            }
+             {
+                flex-direction: column;
+                align-items: center;
+
+            }
+            .head{
+                margin-left: 35px;
+            } 
+        }
+        /* tablet device  */
+        @media only screen and (min-width:688px) and (max-width:992px) {
+            
+            .container{
+                width: 100%;
+            }
+            .collections, .flexible-container{
+                
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .head{
+                margin-left: 35px;
+            } 
+                
+        
         }
