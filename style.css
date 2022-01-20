@@ -1,0 +1,33 @@
+
+/* common  */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* style  */
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 10%
+}
+.half-width img{
+    width: 100%;
+}
+
+.ankor{
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 15px 35px;
+    color: white;
+    border-radius: 50px;
+   
+    
+}
+h1{
+    font-size: 40px;
+}
+.paragraph{
+    margin-bottom: 40px;
+}
