@@ -108,6 +108,9 @@ margin-bottom: 80px;
             .head{
                 margin-left: 35px;
             } 
+            .container{
+                min-width: 400px;
+            }
         }
         /* tablet device  */
         @media only screen and (min-width:688px) and (max-width:992px) {
