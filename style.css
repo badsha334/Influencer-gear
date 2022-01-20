@@ -53,6 +53,7 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-column-gap: 50px;
 grid-row-gap: 35px;
+margin-bottom: 80px;
              }
              .collection .collection-banner img{
                  width: 224px;
@@ -77,5 +78,15 @@ grid-row-gap: 35px;
                 color: blueviolet;
                 margin-bottom: 20px;
             }
+            .head{
+                margin-top: 80px;
+                margin-left: 150px;
+                font-size: 20px;
+            }
 
-        
+        .foot{
+            background-color: blueviolet;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
