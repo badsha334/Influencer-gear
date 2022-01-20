@@ -4,6 +4,20 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+.container{
+    
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+   
+}
 /* style  */
 .flexible-container{
     display: flex;
@@ -31,3 +45,37 @@ h1{
 .paragraph{
     margin-bottom: 40px;
 }
+/*------------------------------------
+             Collection styles 
+             ------------------------------------------------ */
+             .collections{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 50px;
+grid-row-gap: 35px;
+             }
+             .collection .collection-banner img{
+                 width: 224px;
+                 height: 200px;
+                 grid-column-gap: 24px;
+                
+             }
+             .fa-star{
+                 font-size: 12px;
+             }
+            .fa-star-half-alt{
+                font-size: 12px;
+            }
+             .fa-star.filled{
+                 color: #ffc014;
+             }
+             .fa-star-half-alt.filled{
+                color: #ffc014;
+             }
+            .title{
+                text-align: center;
+                color: blueviolet;
+                margin-bottom: 20px;
+            }
+
+        
