@@ -52,11 +52,11 @@ h1{
              Collection styles 
              ------------------------------------------------ */
              .collections{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-column-gap: 50px;
-grid-row-gap: 35px;
-margin-bottom: 80px;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-column-gap: 50px;
+                    grid-row-gap: 35px;
+                    margin-bottom: 80px;
              }
              .collection .collection-banner img{
                  width: 224px;
@@ -95,21 +95,20 @@ margin-bottom: 80px;
         }
         /* Media queri  */
         @media only screen and (max-width:688px) {
-            .collections, .flexible-container{
+            .collections, .flexible-container, .half-width{
                 
-                grid-template-columns: repeat(1, 1fr);
-                
+                grid-template-columns: repeat(1, 1fr);               
             }
              {
                 flex-direction: column;
                 align-items: center;
-
             }
             .head{
                 margin-left: 35px;
             } 
-            .container{
-                min-width: 400px;
+            .half-width{
+        
+                min-width: 300px;
             }
         }
         /* tablet device  */
